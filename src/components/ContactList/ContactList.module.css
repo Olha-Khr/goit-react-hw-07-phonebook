@@ -1,0 +1,26 @@
+.list {
+  margin-top: 30px;
+  color: var(--secondaryTextColor);
+  font-weight: 500;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  transition: transform 250ms var(--timingFn);
+  font-family: -apple-system, BlinkMacSystemFont;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
